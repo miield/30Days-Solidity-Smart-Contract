@@ -1,5 +1,5 @@
 {
-  "name": "hardhat-project",
+  "name": "advance-storage",
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.5",
     "@nomiclabs/hardhat-etherscan": "^3.0.3",
@@ -21,5 +21,17 @@
     "prettier-plugin-solidity": "^1.0.0-beta.13",
     "solhint": "^3.3.7",
     "solidity-coverage": "^0.7.20"
-  }
+  },
+  "description": "A simple storage contract",
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "directories": {
+    "test": "test"
+  },
+
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Miield",
+  "license": "ISC"
 }
