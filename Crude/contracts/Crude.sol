@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 contract Crude {
 
-    uint public noOfStudents;
+    uint public noOfStudents; 
 
     struct Students {
         uint id;
@@ -24,7 +24,7 @@ contract Crude {
         // });
         // students[_id] = Students(_id, _grade, _name, _class); // creating an instance of student...
         menStudent.push(Students(_id, _grade, _name, _class)); // pushing struct into array directly...
-        noOfStudents++;
+        // noOfStudents++;
     }
 
     function readProfile(uint _id) public view returns(uint id, uint grade, string memory name, string memory class) {
