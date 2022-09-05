@@ -33,10 +33,10 @@ contract Crude {
     }
 
     function updateProfile(uint _id, string memory newClass) public returns(uint, string memory) {
-            uint newStudent = loops(_id);
-            menStudent[newStudent].class = newClass;
-            return (menStudent[newStudent].id, menStudent[newStudent].class);     
-    }
+        uint newStudent = loops(_id);
+        menStudent[newStudent].class = newClass;
+        return (menStudent[newStudent].id, menStudent[newStudent].class);     
+}
 
     function deleteProfile(uint _id) public {
         delete menStudent[_id];
